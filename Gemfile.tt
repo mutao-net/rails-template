@@ -26,7 +26,7 @@ group :production do
 end
 
 group :development do
-  gem "annotate"
+  gem 'annotate', '~> 2.7', '>= 2.7.1'
   gem "brakeman", require: false
   gem "bundler-audit", require: false
   gem "erb_lint", require: false
